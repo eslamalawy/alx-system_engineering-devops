@@ -8,5 +8,5 @@ GRANT SELECT ON tyrell_corp.nexus6 TO holberton_user@localhost;
 CREATE USER replica_user@'%' IDENTIFIED BY "replica_user";
 GRANT REPLICATION SLAVE ON *.* TO 'replica_user'@'%';
 GRANT SELECT ON mysql.user TO holberton_user@localhost;
-CREATE USER web02@18.206.192.227 IDENTIFIED BY "web02";
-GRANT REPLICATION SLAVE ON *.* TO web02@18.206.192.227;
+CREATE USER web02@100.25.205.50 IDENTIFIED BY "web02";
+GRANT REPLICATION SLAVE ON *.* TO web02@100.25.205.50;
